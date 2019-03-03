@@ -13,4 +13,8 @@ public class QuickStartApplication {
     public static void main(String[] args) {
         SpringApplication.run(QuickStartApplication.class, args);
     }
+
+    public void test(){
+        System.out.println("test git");
+    }
 }
